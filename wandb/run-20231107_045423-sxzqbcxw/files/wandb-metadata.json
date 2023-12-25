@@ -1,0 +1,38 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.2",
+    "heartbeatAt": "2023-11-06T23:24:24.943311",
+    "startedAt": "2023-11-06T23:24:23.467238",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "Prithvy_ASUS",
+    "username": "jayap",
+    "executable": "c:\\Users\\jayap\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2300.0,
+        "min": 0.0,
+        "max": 2300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300.0,
+            "min": 0.0,
+            "max": 2300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 475.6428871154785,
+            "used": 398.45268630981445
+        }
+    },
+    "memory": {
+        "total": 13.94852066040039
+    }
+}

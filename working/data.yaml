@@ -1,0 +1,7 @@
+# Path
+train: C:/Users/jayap/Downloads/ML_Projects/Underwater_Object_Detection/aquarium_pretrain/train/images
+val: C:/Users/jayap/Downloads/ML_Projects/Underwater_Object_Detection/aquarium_pretrain/valid/images
+test: C:/Users/jayap/Downloads/ML_Projects/Underwater_Object_Detection/aquarium_pretrain/test/images
+# Classes
+nc: 7
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']

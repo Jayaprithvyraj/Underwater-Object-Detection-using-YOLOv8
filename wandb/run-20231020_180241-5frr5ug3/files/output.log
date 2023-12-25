@@ -1,0 +1,171 @@
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING  updating to 'imgsz=1024'. 'train' and 'val' imgsz must be an integer, while 'predict' and 'export' imgsz may be a [h, w] list or an integer, i.e. 'yolo export imgsz=640,480' or 'yolo export imgsz=640'
+[34m[1mtrain: [39m[22mScanning C:\Users\jayap\Downloads\ML_Projects\Underwater_Object_Detection\aquarium_pretrain\train\labels... 448 images, 1 backgrounds, 0 corrupt: 100%|██████████| 448/448 [00:00<00:00, 981.51it/s]
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\jayap\Downloads\ML_Projects\Underwater_Object_Detection\aquarium_pretrain\train\labels.cache
+[34m[1mval: [39m[22mScanning C:\Users\jayap\Downloads\ML_Projects\Underwater_Object_Detection\aquarium_pretrain\valid\labels... 127 images, 0 backgrounds, 0 corrupt: 100%|██████████| 127/127 [00:00<00:00, 897.27it/s]
+[34m[1mval: [39m[22mNew cache created: C:\Users\jayap\Downloads\ML_Projects\Underwater_Object_Detection\aquarium_pretrain\valid\labels.cache
+Plotting labels to runs\detect\yolov8n_custom2\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000909, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 1024 train, 1024 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\yolov8n_custom2
+Starting training for 100 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      1/100         0G      1.487      3.637      1.355        245       1024: 100%|██████████| 28/28 [17:17<00:00, 37.04s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/4 [00:00<?, ?it/s]WARNING  NMS time limit 2.100s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  25%|██▌       | 1/4 [00:30<01:32, 30.80s/it]WARNING  NMS time limit 2.100s exceeded
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  75%|███████▌  | 3/4 [01:16<00:24, 24.56s/it]WARNING  NMS time limit 2.050s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [01:38<00:00, 24.73s/it]
+                   all        127        909     0.0196      0.603      0.121     0.0685
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      2/100         0G      1.477      2.616      1.321        198       1024: 100%|██████████| 28/28 [16:03<00:00, 34.40s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/4 [00:00<?, ?it/s]WARNING  NMS time limit 2.100s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  25%|██▌       | 1/4 [00:30<01:31, 30.47s/it]WARNING  NMS time limit 2.100s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 2/4 [00:53<00:52, 26.00s/it]WARNING  NMS time limit 2.100s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  75%|███████▌  | 3/4 [01:16<00:24, 24.53s/it]WARNING  NMS time limit 2.050s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [01:38<00:00, 24.67s/it]
+                   all        127        909      0.486      0.181      0.181     0.0969
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      3/100         0G       1.51      2.424      1.362        219       1024: 100%|██████████| 28/28 [16:58<00:00, 36.39s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/4 [00:00<?, ?it/s]WARNING  NMS time limit 2.100s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  25%|██▌       | 1/4 [00:31<01:33, 31.13s/it]WARNING  NMS time limit 2.100s exceeded
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  75%|███████▌  | 3/4 [01:16<00:24, 24.74s/it]WARNING  NMS time limit 2.050s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [01:39<00:00, 24.87s/it]
+                   all        127        909      0.304       0.27      0.259      0.143
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      4/100         0G      1.494      2.338      1.351        176       1024: 100%|██████████| 28/28 [16:21<00:00, 35.05s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/4 [00:00<?, ?it/s]WARNING  NMS time limit 2.100s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  25%|██▌       | 1/4 [00:30<01:32, 30.75s/it]WARNING  NMS time limit 2.100s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 2/4 [00:53<00:51, 25.85s/it]WARNING  NMS time limit 2.100s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  75%|███████▌  | 3/4 [01:15<00:24, 24.22s/it]WARNING  NMS time limit 2.050s exceeded
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [01:37<00:00, 24.45s/it]
+                   all        127        909      0.329      0.261      0.238      0.136
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
